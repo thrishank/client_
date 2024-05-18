@@ -12,7 +12,15 @@ import Hero from "./Hero";
 
 function Slider() {
   return (
-    <div>
+    <div className="relative">
+      <video
+        autoPlay
+        muted
+        playsInline
+        loop
+        className="absolute top-50% left-50% w-full h-full object-cover z-0"
+        src="https://build.themovation.com/wp-content/uploads/2023/08/mixkit-long-hallway-in-data-center-23219-medium.mp4"
+      ></video>
       <Swiper
         navigation={false}
         pagination={true}
@@ -21,7 +29,7 @@ function Slider() {
           disableOnInteraction: false,
         }}
         modules={[Navigation, Pagination, Autoplay]}
-        className="mySwiper1"
+        className="mySwiper1 relative z-10"
       >
         <SwiperSlide>
           <Hero
