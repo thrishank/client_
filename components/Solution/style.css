@@ -1,0 +1,29 @@
+/* 7DBDDB */
+
+.mySwiper3 .swiper-button-prev:disabled,
+.mySwiper3 .swiper-button-prev[disabled] {
+    color: black !important;
+    background-color: #7dbddb68 !important;
+    font-size: 20px !important;
+    padding: 22px !important;
+    margin-left: 20px !important;
+    border-radius: 8px !important;
+}
+
+.mySwiper3 .swiper-button-prev::after{
+ color: white !important;
+ background-color: #797979 !important;
+ font-size: 20px !important;
+ padding: 22px !important;
+ margin-left: 20px !important;
+ border-radius: 8px !important;
+}
+
+.mySwiper3 .swiper-button-next::after{
+    color: white !important;
+    background-color: #797979 !important;
+    font-size: 20px !important;
+    padding: 22px !important;
+    margin-right: 20px !important;
+    border-radius: 8px !important;
+   }
