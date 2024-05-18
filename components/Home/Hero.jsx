@@ -8,7 +8,7 @@ function Hero({
   dimg,
   mimg,
   link = "/",
-  btn = "Explore More",
+  btn = "Explore More >",
 }) {
   return (
     <>
