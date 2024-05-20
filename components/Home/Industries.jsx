@@ -12,17 +12,17 @@ function Industries() {
     >
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <h2 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-gray-900 md:mx-auto">
+          <h2 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-white md:mx-auto">
             Industries We Serve
           </h2>
-          <p className="text-base text-[#797979] text-center md:text-lg">
+          <p className="text-base text-white text-center md:text-lg">
             We provide tailored mobile app development solutions for diverse
             industries that revolutionize user experience.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#F9E5C8] rounded-lg flex items-center justify-center">
+          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-[#171A47] p-2.5 rounded-lg">
+            <div className="w-[60px] h-[60px] bg-[#ffffff] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="29"
@@ -85,9 +85,7 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
-                Food
-              </div>
+              <div className=" text-white text-[20px] font-medium  ">Food</div>
             </div>
           </div>
 

@@ -22,12 +22,18 @@ export default function Home() {
       gtag('js', new Date()); gtag('config', 'G-4JEVQXM0B7');`}
       </Script>
       <Slider></Slider>
-      <PopularServices></PopularServices>
-      <ProcessFollow></ProcessFollow>
-      <Industries></Industries>
-      <Partnership></Partnership>
-      <CaseStudies></CaseStudies>
-      <Blogs></Blogs>
+      <div className="bg-[#000212] ">
+        <PopularServices></PopularServices>
+        <ProcessFollow></ProcessFollow>
+      </div>
+      <div className="bg-[#0A0D22]">
+        <Industries></Industries>
+        <Partnership></Partnership>
+      </div>
+      <div className="bg-[#000212] ">
+        <CaseStudies></CaseStudies>
+        <Blogs></Blogs>
+      </div>
       <ContactForm></ContactForm>
     </>
   );

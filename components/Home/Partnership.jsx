@@ -2,7 +2,7 @@ import React from "react";
 
 function Card1({ title, image }) {
   return (
-    <div className=" flex flex-col justify-center items-center bg-white rounded-xl py-10 px-0  md:px-2  w-full ">
+    <div className=" flex flex-col justify-center items-center bg-[#001927] rounded-[40px] py-10 px-0  md:px-2  w-full border-2 border-[#00C2FF]">
       <div className="">
         {" "}
         <svg
@@ -323,10 +323,10 @@ function Card1({ title, image }) {
         </svg>
       </div>
       <div className=" my-6">
-        <h3 className="text-2xl md:text-3xl font-semibold text-center pb-6">
+        <h3 className="text-2xl md:text-3xl font-semibold text-center pb-6 text-white">
           Fixed Price Model
         </h3>
-        <p className=" text-lg text-[#797979] text-center">
+        <p className=" text-small text-white text-center">
           In this model, we can define scope of work and development cost for an
           app before we start development process.
         </p>
@@ -337,7 +337,7 @@ function Card1({ title, image }) {
 
 function Card2({ title, image }) {
   return (
-    <div className=" flex flex-col justify-center items-center bg-stone-50  rounded-[40px] py-10 px-2  md:px-6  w-full ">
+    <div className=" flex flex-col justify-center items-center bg-[#1C3223]  rounded-[40px] py-10 px-2  md:px-6  w-full border-2 border-[#7DD666]">
       <div>
         {" "}
         <svg
@@ -776,10 +776,10 @@ function Card2({ title, image }) {
         </svg>
       </div>
       <div className=" my-6">
-        <h3 className="text-2xl md:text-3xl font-semibold text-center pb-6">
+        <h3 className="text-2xl md:text-3xl font-semibold text-center pb-6 text-white">
           Hire Dedicated Model
         </h3>
-        <p className=" text-lg text-[#797979] text-center">
+        <p className=" text-small text-white text-center">
           This is the most suitable model for the clients who wants to hire
           dedicated developers as required and pay on hourly basis.
         </p>
@@ -790,7 +790,7 @@ function Card2({ title, image }) {
 
 function Card3({ title, image }) {
   return (
-    <div className=" flex flex-col justify-center items-center bg-white rounded-xl py-10 px-0  md:px-2  w-full ">
+    <div className=" flex flex-col justify-center items-center bg-[#39292A] rounded-[40px] py-10 px-0  md:px-2  w-full border-2 border-[#FFB489]">
       <div>
         {" "}
         <svg
@@ -1238,10 +1238,10 @@ function Card3({ title, image }) {
         </svg>
       </div>
       <div className=" my-6">
-        <h3 className="text-2xl md:text-3xl font-semibold text-center pb-6">
+        <h3 className="text-2xl md:text-3xl font-semibold text-center pb-6 text-white">
           Time & Material Model
         </h3>
-        <p className=" text-lg text-[#797979] text-center">
+        <p className=" text-small text-white text-center">
           In this model, the client pays for the time taken for completion of
           the project additionally with all materials used.
         </p>
@@ -1254,7 +1254,7 @@ function Partnership() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <h2 className="max-w-lg mb-6 text-center md:text-start   text-3xl md:text-5xl font-bold leading-none tracking-tight text-gray-900 md:mx-auto">
+        <h2 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-white md:mx-auto">
           Partnership Models
         </h2>
       </div>

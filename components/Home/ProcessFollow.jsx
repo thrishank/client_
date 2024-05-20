@@ -8,7 +8,7 @@ function ProcessFollow() {
         <div className=" absolute top-0"> </div>
         <div className=" w-fit pr-5 relative">
           <div className="">
-            <h2 className="  text-3xl md:text-5xl font-semibold leading-none tracking-tight text-gray-900 md:mx-auto">
+            <h2 className="  text-3xl md:text-5xl font-semibold leading-none tracking-tight text-white md:mx-auto">
               Process we <span className="text-[#0085F2]">Follow</span>
             </h2>
             <Image
@@ -22,7 +22,7 @@ function ProcessFollow() {
         </div>
         <div className="flex flex-col md:flex-row  ">
           <div className="flex flex-col  gap-5">
-            <p className="text-[#797979] text-lg md:text-xl font-normal leading-9 mt-4 mb-6 md:w-3/4">
+            <p className="text-white text-lg md:text-xl font-normal leading-9 mt-4 mb-6 md:w-3/4">
               Our team of top-notch developers make sure to follow a process
               that guarantee success of your mobile app development project.{" "}
             </p>
@@ -51,10 +51,10 @@ function ProcessFollow() {
                 </svg>
               </div>
               <div className="flex flex-col justify-start items-start">
-                <div className=" text-zinc-800 text-2xl font-medium  ">
+                <div className=" text-white text-2xl font-medium  ">
                   Requirement Analysis
                 </div>
-                <div className="w-full md:w-[350px]  text-neutral-500 text-base font-normal mt-4">
+                <div className="w-full md:w-[350px]  text-white text-base font-normal mt-4">
                   Our top-notch team have transparent approach for requirement
                   analysis.
                 </div>
@@ -78,10 +78,10 @@ function ProcessFollow() {
                 </svg>
               </div>
               <div className="flex flex-col justify-start items-start">
-                <div className=" text-zinc-800 text-2xl font-medium  ">
+                <div className=" text-white text-2xl font-medium  ">
                   Design & development
                 </div>
-                <div className="w-full md:w-[350px]  text-neutral-500 text-base font-normal mt-4">
+                <div className="w-full md:w-[350px]  text-white text-base font-normal mt-4">
                   Our team of UI/UX designer and developers can create miracle
                   for your app.
                 </div>
@@ -137,10 +137,10 @@ function ProcessFollow() {
                 </svg>
               </div>
               <div className="flex flex-col justify-start items-start">
-                <div className=" text-zinc-800 text-2xl font-medium  ">
+                <div className=" text-white text-2xl font-medium  ">
                   Deployment & Maintenance
                 </div>
-                <div className="w-full md:w-[350px]  text-neutral-500 text-base font-normal mt-4">
+                <div className="w-full md:w-[350px]  text-white  text-base font-normal mt-4">
                   Our delivery manager makes sure your satisfaction comes first
                   at this stage.
                 </div>
